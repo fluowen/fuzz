@@ -1,19 +1,20 @@
-const form = document.getElementById('form');
-const username= document.getElementById('username');
-const email = document.getElementById('email');
-const password= document.getElementById('password');
-const passwordConfirmation= document.getElementById('password-confirmation');
+const form = document.getElementById("form");
+const username= document.getElementById("username");
+const email = document.getElementById("email");
+const password= document.getElementyI("password");
+const passwordConfirmation= document.getElementById("password-confirmation");
 
-form.addEventListener('submit', (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
+    
     checkInputs();
 });
 
 function checkInputs(){
-    const usernameValue = username.value.trim();
-    const emailValue = email.value.trim();
-    const passwordValue = password.value.trim();
-    const passwordConfirmationValue = passwordConfirmation.value.trim();
+    const usernameValue = username.value;
+    const emailValue = email.value;
+    const passwordValue = password.value;
+    const passwordConfirmationValue = passwordConfirmation.value;
 
     if(usernameValue === ''){
         setErrorFor(username, 'Username cannot be blank');
