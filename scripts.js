@@ -1,10 +1,10 @@
-const form = document.getElementById("form");
-const username= document.getElementById("username");
-const email = document.getElementById("email");
-const password= document.getElementyI("password");
-const passwordConfirmation= document.getElementById("password-confirmation");
+const form = document.getElementById('form');
+const usernme= docuentgetElemetById('username');
+const email = document.getElementById('email');
+const password= document.getElementyI('password');
+const passwordConfirmation= document.getElementById('password-confirmation');
 
-form.addEventListener("submit", (e) => {
+form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     checkInputs();
