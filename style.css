@@ -198,12 +198,17 @@
 .form-control.error input {
     border-color: #e74c3c;
 }
-.form-control.success i.check_small {
+.form-control.success i.material-symbols-outlined.check_small {
     color: #2ecc71;
     visibility: visible;
 }
 
-.form-control.error i.exclamation {
+.form-control.error i.material-symbols-outlined.exclamation {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small {
     color: #e74c3c;
     visibility: visible;
 }
