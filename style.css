@@ -198,7 +198,7 @@
 .form-control.error input {
     border-color: #e74c3c;
 }
-.form-control.success i.material-symbols-outlined.check_small {
+.form-control.success i.material-symbols-outlined.check {
     color: #2ecc71;
     visibility: visible;
 }
